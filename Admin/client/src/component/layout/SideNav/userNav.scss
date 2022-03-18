@@ -1,0 +1,42 @@
+.userNav {
+  display: flex;
+  // justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+
+  .userNav-welcome {
+    // line-height: 30px;
+    font-size: 13px;
+    color: rgb(186, 184, 184);
+  }
+  &_details {
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile_pic {
+    margin: 3px;
+  }
+  .profile_img {
+    width: 50px;
+    background: #fff;
+    z-index: 1000;
+    position: inherit;
+    margin-top: 20px;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 4px;
+  }
+  .profile_img {
+    border-radius: 50%;
+  }
+  img {
+    vertical-align: middle;
+  }
+  .userNav-user {
+    color: rgb(236, 240, 241);
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

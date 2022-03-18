@@ -1,0 +1,14 @@
+.vpns {
+    &-header {
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .right {
+        display: flex;
+        button {
+            display: block;
+            margin: 0px 10px;
+        }
+    }
+}

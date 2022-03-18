@@ -1,0 +1,26 @@
+ {
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "root",
+   "password": "",
+   "database": "vpn",
+   "synchronize": false,
+   "logging": true,
+   "migrationsTableName": "users",
+    "entities": [
+       "src/entity/**/*.ts"
+  ],
+   "migrations": [
+      "build/src/entity/**/*.js"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   },
+   "test":"src/migration/**/*.ts"
+}

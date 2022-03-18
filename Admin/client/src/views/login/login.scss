@@ -1,0 +1,16 @@
+.login {
+  height: 100vh;
+  position: relative;
+  background-color: #cccc;
+  &-container {
+    margin: 0;
+    right: 50%;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background-color: #ffffff;
+    padding: 1rem 1rem 1rem 0;
+  }
+}

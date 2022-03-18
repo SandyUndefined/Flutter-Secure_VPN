@@ -1,0 +1,32 @@
+.layout {
+  // position: relative;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    "menu header"
+    "menu main"
+    "menu footer";
+
+  &_header {
+    grid-area: header;
+    height: 3rem;
+    background-color: #ededed;
+  }
+  &_menu {
+    grid-area: menu;
+    width: 15rem;
+    height: 100vh;
+    background-color: rgb(42, 63, 84);
+  }
+  &_body {
+    grid-area: main;
+    width: calc(100vw - 16rem);
+    min-height:calc(100vh - 3rem);
+    background-color: #ccc;
+  } 
+
+  &_footer {
+    grid-area: footer;
+    height: 5rem;
+  }
+}

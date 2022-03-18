@@ -1,0 +1,14 @@
+.users {
+    .user-action {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        .right {
+            display: flex;
+            button {
+                display: block;
+                margin: 0px 10px;
+            }
+        }
+    }
+}

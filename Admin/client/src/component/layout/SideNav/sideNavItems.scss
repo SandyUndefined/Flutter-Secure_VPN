@@ -1,0 +1,16 @@
+.sideNavItems {
+    align-self: start;
+    padding: 1rem;
+    text-align: start;
+    color: #f2f5f7;
+    font-family: 'Helvetica Neue', Roboto, Arial, 'Droid Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+
+    cursor: pointer;
+    &:hover {
+        background-color: #445c75;
+    }
+}

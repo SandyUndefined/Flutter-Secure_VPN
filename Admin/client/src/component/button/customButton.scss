@@ -1,0 +1,21 @@
+.customButton {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+    &.danger {
+        background-color: red;
+    }
+    &.secondary {
+        background-color: #2e7ffd;
+    }
+}
