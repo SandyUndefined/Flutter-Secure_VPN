@@ -1,0 +1,33 @@
+name: securevpn
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  google_fonts: ^1.1.2
+  flutter_carousel_slider: ^1.0.2
+  cached_network_image: ^2.5.0
+  flutter_html: 0.10.2
+  shared_preferences: ^0.5.12+4
+  provider: ^4.3.3
+  http: ^0.12.2
+  flutter_openvpn: ^0.2.0
+  firebase_admob: ^0.11.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assests/image/
+    - assests/country/
